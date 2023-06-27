@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-transform: capitalize;
+}
+body{
+    background-color: #fcfcfc;
+}
+.nav{
+   height: 10vh;
+   padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links-nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    color: #7a7a7a;
+}
+.sing-in{
+    color: #7a7a7a;
+}
+.coding-adventure{
+    height: 90vh;
+    background-color: #dff8eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.coding-adventure-title{
+color: #222121;
+font-size: 48px;
+}
+.container-main-coding-adventure{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    color: #7a7a7a;
+}
+.container-coding-adventure{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-coding-adventure p{
+    margin: 20px 0;
+}
